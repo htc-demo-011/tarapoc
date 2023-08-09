@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tarapoc"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-011"
+    "humanitec.com/appId": "tarapoc"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
